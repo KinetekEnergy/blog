@@ -1,14 +1,70 @@
-<header class="site-header">
+<!DOCTYPE html>
+<html lang="en">
 
-  <div id="header">
-    <nav>
-      <ul>
-        <li class="fork"><a href="{{site.baseurl}}/">Home</a></li>
-        <li class="fork"><a href="{{site.baseurl}}/compsci">CompSci</a></li>
-        <li class="fork"><a href="{{site.baseurl}}/blogs">Blogs</a></li>
-        <li class="title"><a href="{{site.baseurl}}/help">Help</a></li>
-        <li class="title"><a href="{{ site.github.repository_url }}#readme">View On GitHub</a></li>
-      </ul>
-    </nav>
-  </div><!-- end header -->
-</header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .Button {
+      /* Green */
+      border: none;
+      padding: 16px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+
+    .Button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+
+    .Button span::after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+
+
+
+    .Button:hover span {
+      padding-right: 25px;
+      /* background-color: #e7e7e7; */
+    }
+
+    .Button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header">
+
+    <div id="header">
+      <nav>
+        <ul style="list-style-type: none;">
+          <li class="fork"><a href="{{site.baseurl}}/" class="Button"><span>Home</span></a></li>
+          <li class="fork"><a href="{{site.baseurl}}/compsci" class="Button"><span>CompSci</span></a></li>
+          <li class="fork"><a href="{{site.baseurl}}/blogs" class="Button"><span>Blogs</span></a></li>
+          <li class="title"><a href="{{site.baseurl}}/help" class="Button"><span>Help</span></a></li>
+          <li class="title"><a href="{{ site.github.repository_url }}#readme" class="Button"><span>View on Github</span></a></li>
+        </ul>
+      </nav>
+    </div><!-- end header -->
+  </header>
+</body>
+
+</html>
