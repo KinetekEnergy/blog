@@ -2,8 +2,7 @@
 toc: True
 comments: False
 layout: post
-title: Linux Shell and Bash
-description: A Tech Talk on Linux and the Bash shell.
+title: Lists & Search
 type: hacks
 courses: {'compsci': {'week': 8}}
 ---
