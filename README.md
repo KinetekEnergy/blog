@@ -2,7 +2,13 @@
 
 Aquí es mi blog para el clase de CSP con maestro Mortenson.
 Mi blog tiene mis proyectos de CSP y otros cosas.
-Si ud. puede leer este sin "Google translate", ud. eres mejor que otros personas.
+
+**What is this blog?** This blog is for APCSP and contains various projects, lessons, etc. It serves as a documentation or logbook / journal of what I've done so far and my progress.
+**Who is this blog for?** This is for anyone interested in what I've done so far in CSP (althought I assume the only ones interested are me and the teacher).
+**Why is this blog?** Why not?
+
+
+<https://kinetekenergy.github.io/blog/>
 
 ## Blog site using GitHub Pages and Jekyll
 >
