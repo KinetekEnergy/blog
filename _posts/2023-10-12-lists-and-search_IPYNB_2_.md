@@ -4,7 +4,7 @@ comments: False
 layout: post
 title: Lists & Search
 type: hacks
-courses: {'compsci': {'week': 8}}
+courses: {'compsci': {'week': 9}}
 ---
 
 ## Python lists Operations

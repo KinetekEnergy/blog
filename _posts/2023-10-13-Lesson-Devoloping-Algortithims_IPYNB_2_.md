@@ -4,7 +4,7 @@ comments: False
 layout: post
 title: Developing Algorithms
 type: hacks
-courses: {'compsci': {'week': 8}}
+courses: {'compsci': {'week': 9}}
 ---
 
 ## What are Algorithims?
