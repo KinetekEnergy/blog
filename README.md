@@ -20,7 +20,7 @@
 \
 \
 \
-\
+\ 
 \ 
 # Methods of Mort (instructions written by him).
 
