@@ -18,6 +18,13 @@
 
 **Por qué es este blog?** Por qué no?
 
+
+
+
+
+
+Methods of Mort (instructions written by him).
+
 ## Blog site using GitHub Pages and Jekyll
 >
 > This site is intended for Students.   This is to record plans, complete hacks, and do work for your learnings.
