@@ -4,7 +4,7 @@ comments: False
 layout: post
 title: Independent Review
 type: tangibles
-courses: {'compsci': {'week': 10}}
+courses: {'compsci': {'week': 11}}
 ---
 
 # Individual Code - Chrissie’s Cookies
@@ -115,7 +115,7 @@ fetch(apiUrl)
     });
 ```
 
-Link to the commit: [https://github.com/KinetekEnergy/ByteBuffoons-Pages/commit/e5b6545c50b630c7915b3efde8bf7cdc4ef37afa](https://github.com/KinetekEnergy/ByteBuffoons-Pages/commit/e5b6545c50b630c7915b3efde8bf7cdc4ef37afa)
+Link to the commit: [Cookie Fetcher Commit](https://github.com/KinetekEnergy/ByteBuffoons-Pages/commit/e5b6545c50b630c7915b3efde8bf7cdc4ef37afa)
 
 One thing you may notice is that there are huge chunks of code which were deleted (red) and huge chunks of code added right after (green). This is me stripping out the old dummy code that we had which hard coded all the cookies in with the new, dynamic code that could fetch from the backend. Truth be told, I am very weak at backend and it’s something that I’m just not comfortable with. Me and Harkirat ended up calling each other so that we could both work on this. I mainly worked on JavaScript and Harkirat guided me through the process of making a GET request to the backend and parsing the data. 
 
@@ -159,7 +159,7 @@ function getCookieImageURL(base) {
 }
 ```
 
-Link to commit: [https://github.com/KinetekEnergy/ByteBuffoons-Pages/commit/8e9333c374dd6d20f8fac462ca8c01637581b9a5](https://github.com/KinetekEnergy/ByteBuffoons-Pages/commit/8e9333c374dd6d20f8fac462ca8c01637581b9a5)
+Link to commit: [Cookie Maker Commit](https://github.com/KinetekEnergy/ByteBuffoons-Pages/commit/8e9333c374dd6d20f8fac462ca8c01637581b9a5)
 
 This code is mainly green because it was an entirely new page that was added. I worked with Shubhay in a separate testing environment until we decided that our code was good enough to upload. 
 
@@ -173,7 +173,7 @@ We made heavy use of GitHub issues and the GitHub project system because it allo
 
 It’s a small thing. It wouldn’t change our grade. It wouldn’t add a new function to the site. Some may say it’s a downgrade. I think it’s personality and authenticity: to each their own.
 
-Commit link: [https://github.com/KinetekEnergy/ByteBuffoons-Pages/commit/c6fe19619802f8084c0ec483e1f33b140b97023f](https://github.com/KinetekEnergy/ByteBuffoons-Pages/commit/c6fe19619802f8084c0ec483e1f33b140b97023f)
+Commit link: [404 Commit](https://github.com/KinetekEnergy/ByteBuffoons-Pages/commit/c6fe19619802f8084c0ec483e1f33b140b97023f)
 
 My personal edition to the website: a 404 page with a little blast from the past.
 
@@ -219,10 +219,13 @@ Some of my most favorite lessons / homeworks are here:
 
 
 
-* [https://kinetekenergy.github.io/blog//2023/10/09/boolean-if_IPYNB_2_.html](https://kinetekenergy.github.io/blog//2023/10/09/boolean-if_IPYNB_2_.html)
-    * This homework, I got to experiment with saving files to keep track of user high scores which was a fun idea to play with. I’m quite used to programming something in Python where the data is only stored at run time, so this was oddly fun for me to save files
-* [https://kinetekenergy.github.io/blog//2023/10/12/lists-and-search_IPYNB_2_.html](https://kinetekenergy.github.io/blog//2023/10/12/lists-and-search_IPYNB_2_.html)
-    * Arguably my favorite homework assignment, it puts a super fun twist on a seemingly boring and drab question. The homework asked us to use linear search to get to a certain random value and output the number of iterations to get there. That’s boring. So how ‘bout we take a classic road-trip / songs-to-sing-to-pass-time song and apply it here. You can see the output for yourself to check what I mean. Interestingly enough, the hardest part about this assignment is the English part of it because based on the current iteration, the output will have to vary based on it towards the end.
+[Boolean IF](https://kinetekenergy.github.io/blog//2023/10/09/boolean-if_IPYNB_2_.html)
+
+This homework, I got to experiment with saving files to keep track of user high scores which was a fun idea to play with. I’m quite used to programming something in Python where the data is only stored at run time, so this was oddly fun for me to save files.
+
+[List & Search](https://kinetekenergy.github.io/blog//2023/10/12/lists-and-search_IPYNB_2_.html)
+
+Arguably my favorite homework assignment, it puts a super fun twist on a seemingly boring and drab question. The homework asked us to use linear search to get to a certain random value and output the number of iterations to get there. That’s boring. So how ‘bout we take a classic road-trip / songs-to-sing-to-pass-time song and apply it here. You can see the output for yourself to check what I mean. Interestingly enough, the hardest part about this assignment is the English part of it because based on the current iteration, the output will have to vary based on it towards the end.
 
 
 ### II: Pseudo Code
