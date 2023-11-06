@@ -1,7 +1,4 @@
-# Mi Blog
-
-Aquí es mi blog para el clase de CSP con maestro Mortenson.
-Mi blog tiene mis proyectos de CSP y otros cosas.
+# My Blog
 
 **What is this blog?** This blog is for APCSP and contains various projects, lessons, etc. It serves as a documentation or logbook / journal of what I've done so far and my progress.
 
@@ -11,7 +8,15 @@ Mi blog tiene mis proyectos de CSP y otros cosas.
 
 **Why is this blog?** Why not?
 
+### Para español, marca dos (o leer más abajo)
 
+**Qué es este blog** Este blog is para APCSP y contene vario proyectos, leccións, etc. Este sirve a documentación o diario de lo que he hecho hasta ahora y mi desarollo.
+
+**Quién es este blog para?** Este es para cualquier persona interesada en lo que he hecho hasta ahora en CSP (pero yo asumo que las personas interesadas son mi y el profesor).
+
+**Dondé es este blog?** <https://kinetekenergy.github.io/blog/>
+
+**Por qué es este blog?** Por qué no?
 
 ## Blog site using GitHub Pages and Jekyll
 >
