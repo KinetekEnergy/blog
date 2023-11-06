@@ -8,7 +8,7 @@
 
 **Why is this blog?** Why not?
 
-> ### Para español, marca dos (o leer más abajo)
+## Para español, marca dos (o leer más abajo)
 
 **Qué es este blog** Este blog is para APCSP y contene vario proyectos, leccións, etc. Este sirve a documentación o diario de lo que he hecho hasta ahora y mi desarollo.
 
