@@ -49,7 +49,7 @@ fetch(apiUrl)
         };
 
         // the dictionary we can call from
-        Data = organizedData.Cookie_api.CookieAPI.get.data; 
+        Data = organizedData.Cookie_api.CookieAPI.get.data;
 
         const catalogGrid = document.getElementById("catalog-grid"); // get the catalog grid
 
@@ -113,36 +113,6 @@ fetch(apiUrl)
     .catch(error => {
         console.error('Error fetching data:', error);
     });
-
-document.getElementById("addCookieButton").addEventListener("click", function () {
-    // Define the data to be sent to the API
-    const cookieData = {
-        Cookie_name: "Chocolate Chip",
-        image: "chocolate_chip.jpg",
-        stock: 100,
-        price: 1.99
-    };
-
-    // Send a POST request to the API
-    fetch(apiUrl, {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(cookieData)
-    })
-        .then(response => response.json())
-        .then(data => {
-            // Handle the response data here, e.g., display a success message
-            console.log("Cookie added:", data);
-            alert("Cookie added successfully!");
-        })
-        .catch(error => {
-            // Handle any errors here, e.g., display an error message
-            console.error("Error:", error);
-            alert("Error adding the cookie.");
-        });
-});
 ```
 
 ### Week 9
@@ -152,31 +122,31 @@ Week 9. Once again, issues with the front end were fixed. I fixed some navbar is
 
 ```python
 function swapOptions() {
-      const baseSelect = document.getElementById('base'); // get the base of the cookie
-      const toppingSelect = document.getElementById('topping'); // get its topping (WIP)
-      const cookieImage = document.getElementById('cookie-image'); 
-      
-      // Swap base and topping options
-      // you get a dropdown to swap the images
-      const temp = baseSelect.value;
-      baseSelect.value = toppingSelect.value;
-      toppingSelect.value = temp;
+  const baseSelect = document.getElementById('base'); // get the base of the cookie
+  const toppingSelect = document.getElementById('topping'); // get its topping (WIP)
+  const cookieImage = document.getElementById('cookie-image');
 
-      // Update cookie image source
-      const base = baseSelect.value;
-      const newImageUrl = getCookieImageURL(base);
-      cookieImage.src = newImageUrl;
-    }
-    function getCookieImageURL(base) {
-      // Define image URLs based on the selected base
-      const imageUrls = {
-        'chocolate': 'https://www.justsotasty.com/wp-content/uploads/2016/03/Chocolate-Cookie-for-One-12-500x375.jpg',
-        'vanilla': 'https://media.istockphoto.com/id/468606656/photo/single-traditional-round-butter-biscuit-from-above.jpg?s=612x612&w=0&k=20&c=e07Z20CkUnMbobg5U2FTJU9X6yYYDvQHJpzT1h-gXdw=',
-        'strawberry': 'https://sugarspunrun.com/wp-content/uploads/2023/05/Strawberry-Cookies-8-of-8.jpg',
-      };
-      // Return the corresponding image URL
-      return imageUrls[base] || 'default_image_url.jpg';
-    }
+  // Swap base and topping options
+  // you get a dropdown to swap the images
+  const temp = baseSelect.value;
+  baseSelect.value = toppingSelect.value;
+  toppingSelect.value = temp;
+
+  // Update cookie image source
+  const base = baseSelect.value;
+  const newImageUrl = getCookieImageURL(base);
+  cookieImage.src = newImageUrl;
+}
+function getCookieImageURL(base) {
+  // Define image URLs based on the selected base
+  const imageUrls = {
+    'chocolate': 'https://www.justsotasty.com/wp-content/uploads/2016/03/Chocolate-Cookie-for-One-12-500x375.jpg',
+    'vanilla': 'https://media.istockphoto.com/id/468606656/photo/single-traditional-round-butter-biscuit-from-above.jpg?s=612x612&w=0&k=20&c=e07Z20CkUnMbobg5U2FTJU9X6yYYDvQHJpzT1h-gXdw=',
+    'strawberry': 'https://sugarspunrun.com/wp-content/uploads/2023/05/Strawberry-Cookies-8-of-8.jpg',
+  };
+  // Return the corresponding image URL
+  return imageUrls[base] || 'default_image_url.jpg';
+}
 ```
 
 What do we still need to work on? Cookie maker is still a very work-in-progress project and we still have a ways to go. We understand that a finished product is necessary, but we also recognize that we need to create something quality as well as pacing ourselves. Because of this, cookie maker is still a work in progress. Here’s the issues we are having and things we need to work on.

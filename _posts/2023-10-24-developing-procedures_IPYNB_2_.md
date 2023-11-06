@@ -5,7 +5,7 @@ description: College Board 3.12 and 3.13
 toc: True
 comments: True
 type: hacks
-courses: {'compsci': {'week': 9}}
+courses: {'compsci': {'week': 10}}
 ---
 
 ## What is a procedure?
