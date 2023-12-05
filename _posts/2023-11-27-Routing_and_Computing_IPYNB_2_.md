@@ -98,7 +98,7 @@ A particular computer has two identical processors which can run in parallel. Ea
 The table below lists the amount of time it takes to execute each of the processes on a single computer. None of the processes are dependent on any of the others.
 
 What is the minimum amount of time (approximate) to execute all three processes when the two processors are run in parallel?
-
+**The minimum time is determined by the longest processing time which is X or 50 seconds**
 
 | Process  | Execution Time on Either Processor |
 | ----------- | ----------- |
@@ -169,17 +169,19 @@ Record your answers in the cell below, titled "Write Answers Here."
   - A) Data has more than one path to travel from one device to another.
   - B) If part of the netowrk fails, the network can still function by using other parts.
   - C) Data will only take one route from one device to another, no matter the number of routes available.
+    - **The whole point of a fault tolerant network is that you have several routes which data can take if one route doesn't work**
   - D) More devices creates more connections and makes the network stronger.
 
 2. What causes network redundancy?
   - A) Having more than one path between any two connected devices
+    - **Redundancy means that you need more than one path**
   - B) Having one path between any two connected devices 
   - C) Having no path between any two connected devices
   - D) All networks are redundant
 
 <br>
 
-3. A computer has two duplicate processors that are able to run in parallel. The table below shows the amount of time it takes each processor to execute each of the two processes. Neither process is dependent on the other.
+1. A computer has two duplicate processors that are able to run in parallel. The table below shows the amount of time it takes each processor to execute each of the two processes. Neither process is dependent on the other.
 
   | Process  | Execution Time on Either Processor |
   | ----------- | ----------- |
@@ -189,12 +191,15 @@ Record your answers in the cell below, titled "Write Answers Here."
   What is the difference in execution time between running the two processes in parallel in place of running them one after the other on a single processor?
   - A) 50 seconds 
   - B) 25 seconds
+    - Longest time is B or 45 seconds.
+    - A + B = 75 seconds
+    - If parallel, then Sequential - Parallel => 75 - 45 = 25 seconds
   - C) 70 seconds
   - D) 22 seconds
 
   <br>
 
-4. A computer has two processors that can run in parallel. The table below indicates the amount of time it takes each processor to execute four different processes. None of the processes is dependent on any of the other processes.
+1. A computer has two processors that can run in parallel. The table below indicates the amount of time it takes each processor to execute four different processes. None of the processes is dependent on any of the other processes.
 
   | Process  | Execution Time on Either Processor |
   | ----------- | ----------- |
@@ -225,3 +230,17 @@ Simply put A, B, C, or D next to each number to indicate the correct answers for
 2. 
 3. 
 4. 
+
+# Homework
+
+Question 1: What is parallel computing?
+- Parallel computing is when multiple processors are used at the same time to run multiple processes at the same time on a single program
+
+Question 2: If there is a computer with 3 cores that can each take one task, and the tasks are 25ms, 632ms and 100ms in run time respectively, how long will the program take to run?
+- It will take 632 ms because the time is based off of the longest time
+
+Question 3: Is sequential or parallel computing more efficient, and why?
+- It depends but parallel is usually more efficient because it can run multiple tasks at the same time with less time
+
+Question 4: What is the term called when a network has multiple paths leading up to one destination? (Used in fault-tolerant systems)
+- It is called redundancy.
