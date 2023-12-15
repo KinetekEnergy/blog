@@ -1,6 +1,6 @@
 ---
 comments: True
-layout: notebook
+layout: post
 title: 4.2 & 4.3 Routing and Computing
 description: By Nikki, Eun, Arthur, and Patrick
 type: hacks

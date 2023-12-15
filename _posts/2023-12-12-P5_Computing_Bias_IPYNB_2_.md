@@ -1,6 +1,6 @@
 ---
 comments: True
-layout: notebook
+layout: post
 title: P5 Computer Bias
 description: Team teach on Computer Bias
 type: collab
@@ -43,7 +43,7 @@ Example: Netflix
 
 ## Popcorn Hack:
 
-In what other applications could have intential bias?
+In what other applications could have intential bias? Other streamins services like Disney+
 
 ## Intentional Bias vs Unintentional Bias - Tanvi
 
@@ -63,7 +63,7 @@ Example 2: Candy Crush vs Call of Duty
 
 
 ## Popcorn Hack:
-How is their unintentional bias in apps such as TikTok or Instagram or otehr social media apps?
+How is their unintentional bias in apps such as TikTok or Instagram or otehr social media apps? Unintentional bias because the user base is younger --> mainly younger people join --> snowball effect
 
 ## Mitigation Strategies - Shubhay 
 
@@ -78,8 +78,12 @@ How is their unintentional bias in apps such as TikTok or Instagram or otehr soc
 ## Homework:
 
 1. Is bias enhancing or intentionally excluding?
+   1. Intentionally excluding
 2. Is bias intentionally harmful/hateful?
+   1. It can be but that depends on the degree of bias and what the bias is for (if bias doesn't really have a meaningful impact then it doesn't really matter)
 3. During software development are your receiving feedback from a wide variety of people?
+   1. Yes because that elimantes bias
 4. What are the different biases you can find in an application such as Youtube Kids?
+   1. Different biases would be the user base and the content on there because it's for different people
 
 Answer in complete sentences, due Sunday 11:59 pm

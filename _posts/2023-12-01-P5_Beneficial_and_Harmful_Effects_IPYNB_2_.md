@@ -1,6 +1,6 @@
 ---
 comments: True
-layout: notebook
+layout: post
 title: P5 Beneficial and harmful effects
 description: Team teach on beneficial and harmful effects of computing
 type: collab
