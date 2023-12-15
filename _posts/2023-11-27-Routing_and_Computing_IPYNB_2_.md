@@ -4,7 +4,7 @@ layout: post
 title: 4.2 & 4.3 Routing and Computing
 description: By Nikki, Eun, Arthur, and Patrick
 type: hacks
-courses: {'compsci': {'week': 15}}
+courses: {'compsci': {'week': 14}}
 categories: ['C4.1']
 ---
 

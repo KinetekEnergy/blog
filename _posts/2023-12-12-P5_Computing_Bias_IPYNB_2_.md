@@ -3,10 +3,10 @@ comments: True
 layout: post
 title: P5 Computer Bias
 description: Team teach on Computer Bias
-type: collab
+type: hacks
 author: Tanay, Tarun, Pranavi, Tanvi, Shubhay
 toc: True
-courses: {'csp': {'week': 16}}
+courses: {'compsci': {'week': 16}}
 ---
 
 # Big Idea 5.3 Computing Bias- Tanay

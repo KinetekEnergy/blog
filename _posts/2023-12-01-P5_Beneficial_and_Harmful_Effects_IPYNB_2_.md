@@ -3,10 +3,9 @@ comments: True
 layout: post
 title: P5 Beneficial and harmful effects
 description: Team teach on beneficial and harmful effects of computing
-type: collab
+type: hacks
 author: Rayyan, Nathan, Grayson, Jason
-toc: True
-courses: {'csp': {'week': 15}}
+courses: {'compsci': {'week': 15}}
 ---
 
 # CB Big Idea 5.1 Beneficial and Harmful Effects Student Lesson
