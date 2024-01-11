@@ -4,7 +4,7 @@
 
 **Who is this blog for?** This is for anyone interested in what I've done so far in CSP (althought I assume the only ones interested are me and the teacher).
 
-**Where is this blog?** <https://kinetekenergy.github.io/blog/>
+**Where is this blog?** <https://kinetekenergy.github.io/newBlog/>
 
 **Why is this blog?** Why not?
 
@@ -14,7 +14,7 @@
 
 **Quién es este blog para?** Este es para cualquier persona interesada en lo que he hecho hasta ahora en CSP (pero yo asumo que las personas interesadas son mi y el profesor).
 
-**Dondé es este blog?** <https://kinetekenergy.github.io/blog/>
+**Dondé es este blog?** <https://kinetekenergy.github.io/newBlog/>
 
 **Por qué es este blog?** Por qué no?
 <br>
