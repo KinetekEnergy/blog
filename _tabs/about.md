@@ -25,7 +25,7 @@ Period 3: AP World History\
 Period 4: Integrated Math III\
 Period 5: Spanish 6
 
-![about me drawing (freeform)](images/about%20me.png)
+<!-- ![about me drawing (freeform)](/images/ab) -->
 
 Look at this drawing. How perfect it is, yet how its imperfections constitutes its character. Such a masterpiece puts the greates artists to shame. The beauty behind its subtle details as well as the marvelous artistic choice to use black and white. Its colors may look insipid to the common person,
 yet the choice of only using two colors creates a harmonious relationship of two. It is to be noted how many things come in two. We humans, the ultimate
