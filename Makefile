@@ -88,6 +88,14 @@ stop:
 	@# removes log
 	@rm -f $(LOG_FILE)
 
-
+# stop server
+# clean files
+# regenerate files
+# stop server again
+refresh:
+	@make stop
+	@make clean
+	@make
+	@make stop
 # bundle exec jekyll s
 # run locally
