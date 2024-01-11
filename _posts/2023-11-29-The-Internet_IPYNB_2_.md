@@ -55,7 +55,7 @@ The OSI model, also known as the Open Systems Interconnection Model, helps repre
 - Each of the many protocols can be classified into one of the seven layers
 - Each layer has a function and the protocols in that layer all help with that function
 
-<img src="https://1.bp.blogspot.com/-gdZOMP_8Et4/WTkK6gAKRQI/AAAAAAAACzw/XhDjcUcKGhACYw2URSTEqty4Q7hVOs76ACLcB/s1600/Screen%2BShot%2B2017-06-08%2Bat%2B1.59.05%2BPM.png" style='height: 50%; width: 50%'>
+<img src="https://1.bp.blogspot.com/-gdZOMP_8Et4/WTkK6gAKRQI/AAAAAAAACzw/XhDjcUcKGhACYw2URSTEqty4Q7hVOs76ACLcB/s1600/Screen%2BShot%2B2017-06-08%2Bat%2B1.59.05%2BPM.png" alt="osi model" style='height: 50%; width: 50%>
 
 | Layer | Name         | Function                                                                                | Example |
 |-------|--------------|-----------------------------------------------------------------------------------------|---------|
@@ -108,7 +108,7 @@ The OSI model, also known as the Open Systems Interconnection Model, helps repre
 #### Domain Name Service Providers
  - DNS Providers manage and sell domain names
 
-<img src="https://blog.hubspot.com/hs-fs/hubfs/what-is-a-domain_3.webp?width=1200&height=735&name=what-is-a-domain_3.webp" style="height: 50%; width: 50%">
+<img src="https://blog.hubspot.com/hs-fs/hubfs/what-is-a-domain_3.webp?width=1200&height=735&name=what-is-a-domain_3.webp" alt="web address anatomy" style="height: 50%; width: 50%">
 
 > Popcorn Hack
  - List 4 more websites you use often and their IPs

@@ -14,7 +14,7 @@ A procedure is a named group of programming instructions with a purpose and is c
 It is extremely important to name the procedure something that describes the purpose, method, or function because it makes it easier for others to read your code and for yourself when you revisit old code. Additionally, when there is an effefctively named procedure, it is much simpler to correct bugs and errors.
 
 ### Which code is better?
-<img src="https://media.discordapp.net//attachments/909575347773775953/1166199627083698217/namingprocedures.png?ex=65499f0a&is=65372a0a&hm=6a7d0bf546b51e54837e3cd8d5993063d9ab28ac4f19bd6e49b6a540424a30a5&">
+<img src="https://media.discordapp.net//attachments/909575347773775953/1166199627083698217/namingprocedures.png?ex=65499f0a&is=65372a0a&hm=6a7d0bf546b51e54837e3cd8d5993063d9ab28ac4f19bd6e49b6a540424a30a5&" alt="code example">
 
 ### Hack 1: Naming Procedures
 Rename the procedure below with a name that better describes the purpose of the procedure. 
@@ -124,7 +124,7 @@ PROCEDURE applyTax (price, percentTax) <br>
 }
 
 ### Hack 2: Robot Pseudo-Code
-<img src="https://media.discordapp.net/attachments/1143438030749847604/1165903186473783317/image.png?ex=65488af5&is=653615f5&hm=349a4cfef60546b6f85e59a2448ac85ed4fd0181d63f70456904909e46401d74&=">
+<img src="https://media.discordapp.net/attachments/1143438030749847604/1165903186473783317/image.png?ex=65488af5&is=653615f5&hm=349a4cfef60546b6f85e59a2448ac85ed4fd0181d63f70456904909e46401d74&=" alt="code empty example">
 
 > Instructions:
 - The blue triangle represents a robot that moves in a grid of squares. The tip of the triangle indicates where the robot is facing.
@@ -212,7 +212,7 @@ Add your image here by adding the link between the "" and removing the comment f
 <!-- <img src=""> -->
 
 ### Hack 2: Robot Pseudo-Code
-<img src="images/maze.jpg">
+<img src="images/maze.jpg" alt="maze">
 
 > Instructions:
 - Move the triangle to the end while getting the coin
