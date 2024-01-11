@@ -28,8 +28,8 @@ categories: ['CSP', 'Week 14']
 
 In these examples the letters represent computing devices and the lines represent wires that connect the devices.
 
-![Redundancy Example](../images/RedundancyExample.png)
-![Fault Tolerance Example](../images/FaultTolerance.png)
+<!-- ![Redundancy Example](../images/RedundancyExample.png)
+![Fault Tolerance Example](../images/FaultTolerance.png) -->
 
 # 4.3 Sequential, Parallel, and Distributed Computing
 
@@ -60,7 +60,7 @@ used evenly and fully.
 	- Total processing time is 50 ms + 40 ms + 35 ms = 125 ms
 - Think of sequential computing as items one at a time on a conveyor belt.
 
-	![Sequential Computing](../images/SequentialComputing.png)
+	<!-- ![Sequential Computing](../images/SequentialComputing.png) -->
 
 ## Parallel Computing
 
@@ -85,7 +85,7 @@ used evenly and fully.
     - Core 4: Task E takes 40 ms
     - Total time needed: 55 ms (Core 3 with Tasks C and D in sequence)
   
-    ![Parallel Computing](../images/ParallelComputing.png)
+    <!-- ![Parallel Computing](../images/ParallelComputing.png) -->
 
 
 ## <font color = "4895EF"> Popcorn Hack 1 </font>
@@ -158,7 +158,7 @@ What is the minimum amount of time (approximate) to execute all three processes 
     - Is a mix of sequential and parallel execution of tasks
     - Can take longer based on the network and waiting for responses from other computers
   
-  ![Distributed Computing](../images/DistributedComputing.png)
+  <!-- ![Distributed Computing](../images/DistributedComputing.png) -->
 
 ## <font color = "FFC0CB"> Hacks: Multiple Choice </font>
 

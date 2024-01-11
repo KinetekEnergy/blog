@@ -118,9 +118,6 @@ else:
     print(f"Failed to download image. Status code: {response.status_code}")
 ```
 
-    Random image downloaded, processed, and saved.
-
-
 ### Math Operations With Python Libraries
 Numpy(Numerical Python) is used for numerical and scientific computing. It provides tools for handling large sets of numbers, such as data tables and arrays. Numpy makes it easier and more efficient to do mathematical tasks. 
 
@@ -152,12 +149,6 @@ plt.show()  # Display the plot
 
 ```
 
-
-    
-![png](output_10_0.png)
-    
-
-
 ### Hack 2
 Using the data from the numpy library, create a visual graph using different matplotlib functions.
 
@@ -179,12 +170,6 @@ plt.grid(True)  # Display a grid
 plt.legend()  # Show the legend
 plt.show()  # Display the plot
 ```
-
-
-    
-![png](output_12_0.png)
-    
-
 
 Tensor Flow is used in deep learning and neural networks, while scikit-learn is used for typical machine learning tasks. When used together, they can tackle machine learning projects. In the code below, Tensor Flow is used for model creation and training. Scikit-learn is used for data-processing and model evaluation.
 
@@ -224,210 +209,6 @@ y_pred = model.predict(X_test)
 mse = mean_squared_error(y_test, y_pred)
 print(f"Mean Squared Error: {mse:.4f}")
 ```
-
-    Epoch 1/100
-    3/3 - 0s - loss: 4.8368 - 175ms/epoch - 58ms/step
-    Epoch 2/100
-    3/3 - 0s - loss: 4.8196 - 5ms/epoch - 2ms/step
-    Epoch 3/100
-    3/3 - 0s - loss: 4.8022 - 5ms/epoch - 2ms/step
-    Epoch 4/100
-    3/3 - 0s - loss: 4.7843 - 5ms/epoch - 2ms/step
-    Epoch 5/100
-    3/3 - 0s - loss: 4.7666 - 5ms/epoch - 2ms/step
-    Epoch 6/100
-    3/3 - 0s - loss: 4.7493 - 5ms/epoch - 2ms/step
-    Epoch 7/100
-    3/3 - 0s - loss: 4.7312 - 4ms/epoch - 1ms/step
-    Epoch 8/100
-    3/3 - 0s - loss: 4.7149 - 6ms/epoch - 2ms/step
-    Epoch 9/100
-    3/3 - 0s - loss: 4.6971 - 4ms/epoch - 1ms/step
-    Epoch 10/100
-    3/3 - 0s - loss: 4.6794 - 4ms/epoch - 1ms/step
-    Epoch 11/100
-    3/3 - 0s - loss: 4.6624 - 5ms/epoch - 2ms/step
-    Epoch 12/100
-    3/3 - 0s - loss: 4.6462 - 5ms/epoch - 2ms/step
-    Epoch 13/100
-    3/3 - 0s - loss: 4.6289 - 4ms/epoch - 1ms/step
-    Epoch 14/100
-    3/3 - 0s - loss: 4.6123 - 5ms/epoch - 2ms/step
-    Epoch 15/100
-    3/3 - 0s - loss: 4.5950 - 4ms/epoch - 1ms/step
-    Epoch 16/100
-    3/3 - 0s - loss: 4.5777 - 5ms/epoch - 2ms/step
-    Epoch 17/100
-    3/3 - 0s - loss: 4.5608 - 4ms/epoch - 1ms/step
-    Epoch 18/100
-    3/3 - 0s - loss: 4.5446 - 5ms/epoch - 2ms/step
-    Epoch 19/100
-    3/3 - 0s - loss: 4.5278 - 5ms/epoch - 2ms/step
-    Epoch 20/100
-    3/3 - 0s - loss: 4.5111 - 5ms/epoch - 2ms/step
-    Epoch 21/100
-    3/3 - 0s - loss: 4.4943 - 4ms/epoch - 1ms/step
-    Epoch 22/100
-    3/3 - 0s - loss: 4.4772 - 6ms/epoch - 2ms/step
-    Epoch 23/100
-    3/3 - 0s - loss: 4.4617 - 4ms/epoch - 1ms/step
-    Epoch 24/100
-    3/3 - 0s - loss: 4.4444 - 5ms/epoch - 2ms/step
-    Epoch 25/100
-    3/3 - 0s - loss: 4.4281 - 5ms/epoch - 2ms/step
-    Epoch 26/100
-    3/3 - 0s - loss: 4.4119 - 4ms/epoch - 1ms/step
-    Epoch 27/100
-    3/3 - 0s - loss: 4.3962 - 5ms/epoch - 2ms/step
-    Epoch 28/100
-    3/3 - 0s - loss: 4.3787 - 5ms/epoch - 2ms/step
-    Epoch 29/100
-    3/3 - 0s - loss: 4.3633 - 4ms/epoch - 1ms/step
-    Epoch 30/100
-    3/3 - 0s - loss: 4.3470 - 5ms/epoch - 2ms/step
-    Epoch 31/100
-    3/3 - 0s - loss: 4.3306 - 4ms/epoch - 1ms/step
-    Epoch 32/100
-    3/3 - 0s - loss: 4.3145 - 5ms/epoch - 2ms/step
-    Epoch 33/100
-    3/3 - 0s - loss: 4.2986 - 5ms/epoch - 2ms/step
-    Epoch 34/100
-    3/3 - 0s - loss: 4.2835 - 4ms/epoch - 1ms/step
-    Epoch 35/100
-    3/3 - 0s - loss: 4.2678 - 4ms/epoch - 1ms/step
-    Epoch 36/100
-    3/3 - 0s - loss: 4.2524 - 5ms/epoch - 2ms/step
-    Epoch 37/100
-    3/3 - 0s - loss: 4.2358 - 4ms/epoch - 1ms/step
-    Epoch 38/100
-    3/3 - 0s - loss: 4.2203 - 4ms/epoch - 1ms/step
-    Epoch 39/100
-    3/3 - 0s - loss: 4.2056 - 4ms/epoch - 1ms/step
-    Epoch 40/100
-    3/3 - 0s - loss: 4.1896 - 4ms/epoch - 1ms/step
-    Epoch 41/100
-    3/3 - 0s - loss: 4.1749 - 4ms/epoch - 1ms/step
-    Epoch 42/100
-    3/3 - 0s - loss: 4.1585 - 5ms/epoch - 2ms/step
-    Epoch 43/100
-    3/3 - 0s - loss: 4.1429 - 4ms/epoch - 1ms/step
-    Epoch 44/100
-    3/3 - 0s - loss: 4.1277 - 4ms/epoch - 1ms/step
-    Epoch 45/100
-    3/3 - 0s - loss: 4.1120 - 5ms/epoch - 2ms/step
-    Epoch 46/100
-    3/3 - 0s - loss: 4.0971 - 5ms/epoch - 2ms/step
-    Epoch 47/100
-    3/3 - 0s - loss: 4.0810 - 4ms/epoch - 1ms/step
-    Epoch 48/100
-    3/3 - 0s - loss: 4.0658 - 5ms/epoch - 2ms/step
-    Epoch 49/100
-    3/3 - 0s - loss: 4.0503 - 4ms/epoch - 1ms/step
-    Epoch 50/100
-    3/3 - 0s - loss: 4.0357 - 5ms/epoch - 2ms/step
-    Epoch 51/100
-    3/3 - 0s - loss: 4.0198 - 4ms/epoch - 1ms/step
-    Epoch 52/100
-    3/3 - 0s - loss: 4.0052 - 5ms/epoch - 2ms/step
-    Epoch 53/100
-    3/3 - 0s - loss: 3.9896 - 4ms/epoch - 1ms/step
-    Epoch 54/100
-    3/3 - 0s - loss: 3.9749 - 7ms/epoch - 2ms/step
-    Epoch 55/100
-    3/3 - 0s - loss: 3.9603 - 5ms/epoch - 2ms/step
-    Epoch 56/100
-    3/3 - 0s - loss: 3.9452 - 6ms/epoch - 2ms/step
-    Epoch 57/100
-    3/3 - 0s - loss: 3.9303 - 4ms/epoch - 1ms/step
-    Epoch 58/100
-    3/3 - 0s - loss: 3.9173 - 4ms/epoch - 1ms/step
-    Epoch 59/100
-    3/3 - 0s - loss: 3.9017 - 5ms/epoch - 2ms/step
-    Epoch 60/100
-    3/3 - 0s - loss: 3.8872 - 4ms/epoch - 1ms/step
-    Epoch 61/100
-    3/3 - 0s - loss: 3.8729 - 4ms/epoch - 1ms/step
-    Epoch 62/100
-    3/3 - 0s - loss: 3.8584 - 4ms/epoch - 1ms/step
-    Epoch 63/100
-    3/3 - 0s - loss: 3.8449 - 5ms/epoch - 2ms/step
-    Epoch 64/100
-    3/3 - 0s - loss: 3.8306 - 4ms/epoch - 1ms/step
-    Epoch 65/100
-    3/3 - 0s - loss: 3.8161 - 4ms/epoch - 1ms/step
-    Epoch 66/100
-    3/3 - 0s - loss: 3.8022 - 5ms/epoch - 2ms/step
-    Epoch 67/100
-    3/3 - 0s - loss: 3.7881 - 5ms/epoch - 2ms/step
-    Epoch 68/100
-    3/3 - 0s - loss: 3.7741 - 5ms/epoch - 2ms/step
-    Epoch 69/100
-    3/3 - 0s - loss: 3.7610 - 5ms/epoch - 2ms/step
-    Epoch 70/100
-    3/3 - 0s - loss: 3.7465 - 4ms/epoch - 1ms/step
-    Epoch 71/100
-    3/3 - 0s - loss: 3.7326 - 5ms/epoch - 2ms/step
-    Epoch 72/100
-    3/3 - 0s - loss: 3.7193 - 4ms/epoch - 1ms/step
-    Epoch 73/100
-    3/3 - 0s - loss: 3.7050 - 5ms/epoch - 2ms/step
-    Epoch 74/100
-    3/3 - 0s - loss: 3.6910 - 5ms/epoch - 2ms/step
-    Epoch 75/100
-    3/3 - 0s - loss: 3.6781 - 4ms/epoch - 1ms/step
-    Epoch 76/100
-    3/3 - 0s - loss: 3.6644 - 4ms/epoch - 1ms/step
-    Epoch 77/100
-    3/3 - 0s - loss: 3.6509 - 5ms/epoch - 2ms/step
-    Epoch 78/100
-    3/3 - 0s - loss: 3.6368 - 5ms/epoch - 2ms/step
-    Epoch 79/100
-    3/3 - 0s - loss: 3.6235 - 4ms/epoch - 1ms/step
-    Epoch 80/100
-    3/3 - 0s - loss: 3.6105 - 5ms/epoch - 2ms/step
-    Epoch 81/100
-    3/3 - 0s - loss: 3.5959 - 4ms/epoch - 1ms/step
-    Epoch 82/100
-    3/3 - 0s - loss: 3.5822 - 4ms/epoch - 1ms/step
-    Epoch 83/100
-    3/3 - 0s - loss: 3.5692 - 5ms/epoch - 2ms/step
-    Epoch 84/100
-    3/3 - 0s - loss: 3.5556 - 6ms/epoch - 2ms/step
-    Epoch 85/100
-    3/3 - 0s - loss: 3.5418 - 5ms/epoch - 2ms/step
-    Epoch 86/100
-    3/3 - 0s - loss: 3.5280 - 6ms/epoch - 2ms/step
-    Epoch 87/100
-    3/3 - 0s - loss: 3.5151 - 5ms/epoch - 2ms/step
-    Epoch 88/100
-    3/3 - 0s - loss: 3.5018 - 5ms/epoch - 2ms/step
-    Epoch 89/100
-    3/3 - 0s - loss: 3.4888 - 5ms/epoch - 2ms/step
-    Epoch 90/100
-    3/3 - 0s - loss: 3.4749 - 6ms/epoch - 2ms/step
-    Epoch 91/100
-    3/3 - 0s - loss: 3.4619 - 6ms/epoch - 2ms/step
-    Epoch 92/100
-    3/3 - 0s - loss: 3.4488 - 5ms/epoch - 2ms/step
-    Epoch 93/100
-    3/3 - 0s - loss: 3.4360 - 4ms/epoch - 1ms/step
-    Epoch 94/100
-    3/3 - 0s - loss: 3.4228 - 5ms/epoch - 2ms/step
-    Epoch 95/100
-    3/3 - 0s - loss: 3.4089 - 4ms/epoch - 1ms/step
-    Epoch 96/100
-    3/3 - 0s - loss: 3.3963 - 5ms/epoch - 2ms/step
-    Epoch 97/100
-    3/3 - 0s - loss: 3.3831 - 4ms/epoch - 1ms/step
-    Epoch 98/100
-    3/3 - 0s - loss: 3.3694 - 4ms/epoch - 1ms/step
-    Epoch 99/100
-    3/3 - 0s - loss: 3.3568 - 4ms/epoch - 1ms/step
-    Epoch 100/100
-    3/3 - 0s - loss: 3.3435 - 4ms/epoch - 1ms/step
-    1/1 [==============================] - 0s 24ms/step
-    Mean Squared Error: 3.7303
-
 
 A decrease in loss and time metrics (ms/epoch and ms/step) shows the efficiency increases as the training epochs increases
 
@@ -481,10 +262,6 @@ y_pred = model.predict(X_test)
 mse = mean_squared_error(y_test, y_pred)
 print(f"Mean Squared Error on the test set: {mse:.2f}")
 ```
-
-    1/1 [==============================] - 0s 43ms/step
-    Mean Squared Error on the test set: 158474157368.09
-
 
 ## HOMEWORK 1
 
@@ -549,15 +326,6 @@ def print_final_gpa(gpa):
 print_final_gpa(gpa) # print
 ```
 
-
-    
-![png](output_20_0.png)
-    
-
-
-    Your GPA is 3.71 this trimester
-
-
 ## HOMEWORK 2
 
 Import and use the "random" library to generate 50 different points from the range 0-100, then display the randomized data using a scatter plot.
@@ -591,12 +359,3 @@ plt.legend()
 plt.grid(True)
 plt.show()
 ```
-
-    No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
-
-
-
-    
-![png](output_22_1.png)
-    
-

@@ -36,7 +36,7 @@ Example: Netflix
 - When browsing through Netflix, they show Netflix exclusives, they do this because they want your subscriptions 
 - showing the netflix exclusives is the bias in this scenario
 
-![Screenshot 2023-12-12 at 1.22.41 PM.png](<attachment:Screenshot 2023-12-12 at 1.22.41 PM.png>)
+<!-- ![Screenshot 2023-12-12 at 1.22.41 PM.png](<attachment:Screenshot 2023-12-12 at 1.22.41 PM.png>) -->
 
 
 ## Popcorn Hack:
@@ -55,9 +55,9 @@ Example 2: Candy Crush vs Call of Duty
 - Candy Crush is more visually appearing to younger audience as it includes pictures of candies and playful music 
 - This is biased as the games include aspects and characteristics that will seem appealing to a specific audience 
 
-![Screenshot 2023-12-12 at 1.23.36 PM.png](<attachment:Screenshot 2023-12-12 at 1.23.36 PM.png>)
+<!-- ![Screenshot 2023-12-12 at 1.23.36 PM.png](<attachment:Screenshot 2023-12-12 at 1.23.36 PM.png>)
 
-![Screenshot 2023-12-12 at 1.23.42 PM.png](<attachment:Screenshot 2023-12-12 at 1.23.42 PM.png>)
+![Screenshot 2023-12-12 at 1.23.42 PM.png](<attachment:Screenshot 2023-12-12 at 1.23.42 PM.png>) -->
 
 
 ## Popcorn Hack:
