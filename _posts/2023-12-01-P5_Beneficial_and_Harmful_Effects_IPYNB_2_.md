@@ -19,7 +19,7 @@ categories: ['CSP', 'Week 15']
 
 - Drones are vehicles without a human pilot, crew, or passengers and the term can be used synonymously with UAVs, however drones are usually remote controlled. UAVs may have autonomous abilities, while Drones do not, which means that all drones are UAVs, but not all UAVs are drones. Drones are much more commonly used than UAVs, and have uses such as construction, mining, inspection, emergency management, forestry, jounalism, law enforcement, etc.
 
-<img src="https://www.marinecorpstimes.com/resizer/lp66A1gp90It35dcIDS4K_RORi0=/1024x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/archetype/TZFFCKDWRFFIVJUH77DX4OCOSQ.jpg">
+<img src="https://www.marinecorpstimes.com/resizer/lp66A1gp90It35dcIDS4K_RORi0=/1024x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/archetype/TZFFCKDWRFFIVJUH77DX4OCOSQ.jpg" alt="military person inspecting a UAV">
 
 > Benefits
 
@@ -126,7 +126,7 @@ Overall, Social Media has plenty harmful effects that go with the good. People d
 > Automated telephone trees is a system where it can communicate using fixed voice menus with the caller, who can then respond by pressing buttons on the phone or by verbally responding. The system takes and interprets this input as information and can reroute calls, play another response, log information, and more.
 - One common example we all know is customer service. We call some business or place and are greeted with an automatic message asking us what we need help with --> we press a button and the system takes that information and moves us to an actual person or another automated message. 
 - An example of a phone tree is shown below:
-<img src="https://cohm.com/wp-content/uploads/Call-Tree-Example-1024x925.jpeg">
+<img src="https://cohm.com/wp-content/uploads/Call-Tree-Example-1024x925.jpeg" alt="call tree example">
 
 > Beneficial effects:
 - 1: Lowers the workload on employees. A call center like customer service gets a massive number of calls all the time, and it is incredibly inefficient and borderline impossible to have every single person be immediately transferred to a human working at the service center. Furthermore, the person who picks up the call may not be in the department or qualified to deal with the issue. Automated phone trees can prompt the caller for a response (such as what type of issue they are having) and sort the calls so they can be transferred to qualified professionals, and some can even give an automated message with the instructions to fix the problem. As a result, automated phone trees greatly alleviate the burden on employees.
