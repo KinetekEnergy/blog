@@ -1,6 +1,5 @@
 ---
 comments: True
-layout: notebook
 title: P5 Crowdsourcing
 tags: ['hacks']
 toc: True
