@@ -49,4 +49,4 @@ Use tools to design screens before implementation is Figma or Canva or simple Ma
 
 ### UML Class
 
-[Class](https://drive.google.com/file/d/1mSD5EWuBnbvBtGA6-xGGhixRm7etMTer/view?usp=sharing)
+[Class](https://drive.google.com/file/d/1_dzOH3soRZ8dO152b4kDK9VckQfWCwLR/view?usp=sharing)
