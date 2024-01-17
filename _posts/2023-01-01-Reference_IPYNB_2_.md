@@ -2,8 +2,6 @@
 title: Reference Notebook for Writing Posts
 categories: ['Reference']
 tags: ['reference']
-toc: True
-comments: True
 ---
 
 ## Your Heading Goes Here
