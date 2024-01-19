@@ -30,7 +30,7 @@ Period 5, Aashray Reddy
    </td>
    <td>Researched about networking and networking math for IP addresses. Also researched about protocols.
    </td>
-   <td><a href="https://kinetekenergy.github.io/posts/The-Internet_IPYNB_2_/">The Internet</a>
+   <td><a href="https://kinetekenergy.github.io/blog/posts/The-Internet_IPYNB_2_/">The Internet</a>
    </td>
   </tr>
   <tr>
@@ -42,7 +42,7 @@ Period 5, Aashray Reddy
    </td>
    <td>Did further research into redundancy and the reasons as to why or why you would not want to use it.
    </td>
-   <td><a href="https://kinetekenergy.github.io/posts/Routing_and_Computing_IPYNB_2_/">Routing & Computing</a>
+   <td><a href="https://kinetekenergy.github.io/blog/posts/Routing_and_Computing_IPYNB_2_/">Routing & Computing</a>
    </td>
   </tr>
   <tr>
@@ -54,7 +54,7 @@ Period 5, Aashray Reddy
    </td>
    <td>Looked into the beneficial and harmful effects of everyday applications and why something which seems to be beneficial can have unseen harmful side effects.
    </td>
-   <td><a href="https://kinetekenergy.github.io/posts/P5_Beneficial_and_Harmful_Effects_IPYNB_2_/">Beneficial & Harmful Effects</a>
+   <td><a href="https://kinetekenergy.github.io/blog/posts/P5_Beneficial_and_Harmful_Effects_IPYNB_2_/">Beneficial & Harmful Effects</a>
    </td>
   </tr>
   <tr>
@@ -66,7 +66,7 @@ Period 5, Aashray Reddy
    </td>
    <td>Researched how you can bridge the digital divide as well as why you would want to and how you can create an organization to do so (used chatGPT to help).
    </td>
-   <td><a href="https://kinetekenergy.github.io/posts/Digital-Divide_IPYNB_2_/">Digital Divide</a>
+   <td><a href="https://kinetekenergy.github.io/blog/posts/Digital-Divide_IPYNB_2_/">Digital Divide</a>
    </td>
   </tr>
   <tr>
@@ -78,7 +78,7 @@ Period 5, Aashray Reddy
    </td>
    <td>None :(
    </td>
-   <td><a href="https://kinetekenergy.github.io/posts/P5_Computing_Bias_IPYNB_2_/">Computing Bias</a>
+   <td><a href="https://kinetekenergy.github.io/blog/posts/P5_Computing_Bias_IPYNB_2_/">Computing Bias</a>
    </td>
   </tr>
   <tr>
@@ -90,7 +90,7 @@ Period 5, Aashray Reddy
    </td>
    <td>Explored how we can use datasets for our own personal project for CSP. Looked into how datasets can be used to improve our platform and whether crowdsourcing can be used.
    </td>
-   <td><a href="https://kinetekenergy.github.io/posts/P5_Crowdsourcing_IPYNB_2_/">Crowdsourcing</a>
+   <td><a href="https://kinetekenergy.github.io/blog/posts/P5_Crowdsourcing_IPYNB_2_/">Crowdsourcing</a>
    </td>
   </tr>
   <tr>
@@ -102,7 +102,7 @@ Period 5, Aashray Reddy
    </td>
    <td>Explored different types of licenses that code can be listed under and their use cases and what the licenses say you can and cannot do with the code.
    </td>
-   <td><a href="https://kinetekenergy.github.io/posts/Legal_Ethics_IPYNB_2_/">Legal & Ethical Concerns</a>
+   <td><a href="https://kinetekenergy.github.io/blog/posts/Legal_Ethics_IPYNB_2_/">Legal & Ethical Concerns</a>
    </td>
   </tr>
   <tr>
@@ -126,7 +126,7 @@ Period 5, Aashray Reddy
    </td>
    <td>Did a blog exploring all the questions I missed as well as the process to get the score that I got (5 minute blog).
    </td>
-   <td><a href="https://kinetekenergy.github.io/posts/5_min_blog_IPYNB_2_/">5 Min Blog</a>
+   <td><a href="https://kinetekenergy.github.io/blog/posts/5_min_blog_IPYNB_2_/">5 Min Blog</a>
    </td>
   </tr>
   <tr>
@@ -168,4 +168,4 @@ Period 5 Lopez, Safe Computing
 
 ### Elements of Creativity or Success
 
-Elements of success for me was the college board AP practice multiple choice exam that I did recently in which I got a good score. I wrote a [5 Min Blog](https://kinetekenergy.github.io/posts/5_min_blog_IPYNB_2_/) on this which talks about all the problems I got wrong and the solutions to them. It also talks about my process to getting a good score. Other elements of success was our team teach: safe computing. I personally think that we as a team did a really good job of doing research on our topic and presenting it to the class. I think we also did a good job on giving homework that tests students' knowledge as well as grading everything on time and grading fairly.
+Elements of success for me was the college board AP practice multiple choice exam that I did recently in which I got a good score. I wrote a [5 Min Blog](https://kinetekenergy.github.io/blog/posts/5_min_blog_IPYNB_2_/) on this which talks about all the problems I got wrong and the solutions to them. It also talks about my process to getting a good score. Other elements of success was our team teach: safe computing. I personally think that we as a team did a really good job of doing research on our topic and presenting it to the class. I think we also did a good job on giving homework that tests students' knowledge as well as grading everything on time and grading fairly.
