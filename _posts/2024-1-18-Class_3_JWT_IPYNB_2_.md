@@ -1,6 +1,6 @@
 ---
 title: Python Flask User DataBase Implementation
-categoris: ['CSP', 'Week 19']
+categories: ['CSP', 'Week 19']
 tags: ['hacks']
 ---
 
@@ -38,7 +38,7 @@ Each section is divided by a dot
   # For Example:
   "sub": "1234567890",
   "name": "John Doe",
-  "admin": true
+  "admin": True
 }
 ```
 
@@ -258,13 +258,14 @@ def downgrade():
 
 
 ```python
-    # update password, this is conventional setter
-    def set_password(self, password):
-        """Create a hashed password."""
-        self._password = generate_password_hash(password, "pbkdf2:sha256", salt_length=10)
+# update password, this is conventional setter
+def set_password(self, password):
+    """Create a hashed password."""
+    self._password = generate_password_hash(password, "pbkdf2:sha256", salt_length=10)
 
-    # check password parameter versus stored/encrypted password
-    def is_password(self, password):
+# check password parameter versus stored/encrypted password
+def is_password(self, password):
+    None
 ```
 
 #### 4) Checking JWT Token and Authentication
