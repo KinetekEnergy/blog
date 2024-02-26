@@ -100,7 +100,7 @@ Planning table of issues and features:
   </tr>
 </table>
 
-Features
+Features:
 
 <table>
   <tr>
