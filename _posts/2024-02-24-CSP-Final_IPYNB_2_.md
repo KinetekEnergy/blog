@@ -4,7 +4,13 @@ categories: ['CSP', 'Week 21']
 tags: ['hacks']
 ---
 
-# Features Prior to Implementation
+# Individual Review
+
+Filler.
+
+# Team Review
+
+## Features Prior to Implementation
 
 Description of features prior to implementation:
 
