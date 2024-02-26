@@ -11,7 +11,7 @@ tags: ['hacks']
 
     table {
         table-layout: fixed;
-        width: 50%;
+        width: auto;
     }
 </style>
 
