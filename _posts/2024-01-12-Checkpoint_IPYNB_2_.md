@@ -1,7 +1,7 @@
 ---
-title: Checkpoints
+title: Checkpoint
 categories: ['CSP', 'Week 18']
-tags: ['tangibles']
+tags: ['hacks']
 ---
 
 ## Checkpoint A: Plan/In Progress
@@ -15,11 +15,6 @@ Currently, we are working on the layout of the site for design. Our site is extr
 ### Evidence of design asset ownership:
 
 Right now, we haven’t got any external assets but we are most likely going to use the template code that is already given to us by the teachers. Any external assets and tools will be listed and updated regularly. Other design assets include a draft we made but that is completely ours (well, we did use Canva).
-
-
-## Checkpoint B: Plan/Code Ready
-
-[Not needed now]
 
 
 ## Design Assets
