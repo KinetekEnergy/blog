@@ -29,13 +29,13 @@ errors).
 
 <table>
     <tr>
-        <td><strong>College Board Requirements</strong>
+        <td style="word-wrap: break-word;"><strong>College Board Requirements</strong>
         </td>
-        <td><strong>What I Did</strong>
+        <td style="word-wrap: break-word;"><strong>What I Did</strong>
         </td>
     </tr>
     <tr>
-        <td>Instructions for input from one of the following:
+        <td style="word-wrap: break-word;">Instructions for input from one of the following:
             <ul>
                 <li>The user (including user actions that trigger events)
                 <li>A device
@@ -44,16 +44,16 @@ errors).
                 </li>
             </ul>
         </td>
-        <td>In our project, the user can upload a video file and an image. The video file will be the video that plays
+        <td style="word-wrap: break-word;">In our project, the user can upload a video file and an image. The video file will be the video that plays
             and the image can be a video preview (typically called a “thumbnail). The user also inputs a title for the
             video and a description.
         </td>
     </tr>
     <tr>
-        <td>Use of at least one list (or other collection type) to represent a collection of data that is stored and
+        <td style="word-wrap: break-word;">Use of at least one list (or other collection type) to represent a collection of data that is stored and
             used to manage program complexity and help fulfill the program's purpose.
         </td>
-        <td>For our project, the collected data are the videos which are stored in the backend. Each time a user uploads
+        <td style="word-wrap: break-word;">For our project, the collected data are the videos which are stored in the backend. Each time a user uploads
             a video, the backend is updated. It helps to fulfill the program’s purpose because our program is a video
             sharing website. It lets people watch and share videos.
             <ul>
@@ -64,7 +64,7 @@ errors).
         </td>
     </tr>
     <tr>
-        <td>At least one procedure that contributes to the program's intended purpose, where you have defined:
+        <td style="word-wrap: break-word;">At least one procedure that contributes to the program's intended purpose, where you have defined:
             <ul>
                 <li>the procedure's name
                 <li>the return type (if necessary)
@@ -72,7 +72,7 @@ errors).
                 </li>
             </ul>
         </td>
-        <td>
+        <td style="word-wrap: break-word;">
             <ul>
                 <li>This procedure’s purpose is to update a user’s email.
                 <li>Name: <code>post</code>.
@@ -85,10 +85,10 @@ errors).
         </td>
     </tr>
     <tr>
-        <td>An algorithm that includes sequencing, selection, and iteration that is in the body of the selected
+        <td style="word-wrap: break-word;">An algorithm that includes sequencing, selection, and iteration that is in the body of the selected
             procedure
         </td>
-        <td>This function uses sequencing and iterates through each user. It selects each part of their user information
+        <td style="word-wrap: break-word;">This function uses sequencing and iterates through each user. It selects each part of their user information
             such as name, email, etc. and prepares it for use in a json. This can be accessed on the frontend via an
             admin panel.
             <p>
@@ -96,17 +96,17 @@ errors).
         </td>
     </tr>
     <tr>
-        <td>Calls to your student-developed procedure
+        <td style="word-wrap: break-word;">Calls to your student-developed procedure
         </td>
-        <td>Calls the backend procedure and fetches the data to load.
+        <td style="word-wrap: break-word;">Calls the backend procedure and fetches the data to load.
             <p>
                 <img src="/images/adminpanel.png" width="" alt="alt_text" title="image_tooltip">
         </td>
     </tr>
     <tr>
-        <td>Instructions for output (tactile, audible, visual, or ) based on input and program functionality
+        <td style="word-wrap: break-word;">Instructions for output (tactile, audible, visual, or ) based on input and program functionality
         </td>
-        <td>Now, the json data is formatted into a table. All content is dynamically updated and automatically formatted
+        <td style="word-wrap: break-word;">Now, the json data is formatted into a table. All content is dynamically updated and automatically formatted
             with CSS.
             <p>
                 <img src="/images/visuals.png" width="" alt="alt_text" title="image_tooltip">
