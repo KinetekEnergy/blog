@@ -21,6 +21,12 @@ errors).
 
 ## Component A: Program Code
 
+<style>
+    td {
+        word-wrap: break-word;
+    }
+</style>
+
 <table>
     <tr>
         <td><strong>College Board Requirements</strong>
