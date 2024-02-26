@@ -6,7 +6,7 @@ tags: ['hacks']
 
 <style>
     td {
-        word-wrap: break-word;
+        white-space: normal;
     }
 
     table {
