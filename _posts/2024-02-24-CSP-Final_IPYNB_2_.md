@@ -120,8 +120,6 @@ My feature is a login system which handles user creation, account modification, 
   </tr>
 </table>
 
-
-
 ## Component B: Video
 
 [**Link to video**](#)
@@ -140,7 +138,6 @@ My feature is a login system which handles user creation, account modification, 
 
 > All cb requirements from [https://apclassroom.collegeboard.org/103/home?apd=7wv87bhksv&unit=0](https://apclassroom.collegeboard.org/103/home?apd=7wv87bhksv&unit=0)
 {: .prompt-info }
-
 
 # Team Review
 
