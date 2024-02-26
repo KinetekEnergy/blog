@@ -36,7 +36,7 @@ Description of features prior to implementation:
 
 * Design and planning
 * Key features
-* [https://kinetekenergy.github.io/blog/posts/Checkpoint_IPYNB_2_/](https://kinetekenergy.github.io/blog/posts/Checkpoint_IPYNB_2_/)
+* [Features prior to implementation](https://kinetekenergy.github.io/blog/posts/Checkpoint_IPYNB_2_/)
 
 Planning table of issues and features:
 
