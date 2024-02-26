@@ -155,38 +155,13 @@ Planning table of issues and features:
 
 Features:
 
-<table>
-  <tr>
-   <td><strong>Features</strong>
-   </td>
-   <td><strong>Link</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>View count which updates whenever someone views a video
-   </td>
-   <td rowspan="5" ><a href="https://github.com/Napoleon-Bonaparte-Official/corsica-blog/issues/3">Issue</a>
-   </td>
-  </tr>
-  <tr>
-   <td>Video categories to sort videos and choose which category to watch
-   </td>
-  </tr>
-  <tr>
-   <td>Login feature which connects to upload. When uploading a video, the user who uploaded it will be in the description and this will be automatic.
-   </td>
-  </tr>
-  <tr>
-   <td>Deleting user accounts and updating an email so that users can close their account and update information
-   </td>
-  </tr>
-  <tr>
-   <td>Allow users to add a description to their videos. They can also add a tag so that the category feature sorts it
-   </td>
-  </tr>
-</table>
-
-
+|Features|Link|
+|-|-|
+|View count which updates whenever someone views a video|[Issue](https://github.com/Napoleon-Bonaparte-Official/corsica-blog/issues/3)|
+|Video categories to sort videos and choose which category to watch|[Issue](https://github.com/Napoleon-Bonaparte-Official/corsica-blog/issues/3)|
+|Login feature which connects to upload. When uploading a video, the user who uploaded it will be in the description and this will be automatic.|[Issue](https://github.com/Napoleon-Bonaparte-Official/corsica-blog/issues/3)|
+|Deleting user accounts and updating an email so that users can close their account and update information|[Issue](https://github.com/Napoleon-Bonaparte-Official/corsica-blog/issues/3)|
+|Allow users to add a description to their videos. They can also add a tag so that the category feature sorts it|[Issue](https://github.com/Napoleon-Bonaparte-Official/corsica-blog/issues/3)|
 
 |Issue|Solution|
 |-|-|
