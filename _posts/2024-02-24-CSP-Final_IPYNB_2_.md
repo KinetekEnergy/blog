@@ -116,6 +116,8 @@ Now, the json data is formatted into a table. All content is dynamically updated
 
 [**Link to video**](https://youtu.be/gd6uUlJ50Z0)
 
+[**Link to video on our deployed project**](https://napoleon-bonaparte-official.github.io/corsica-frontend/video?videoID=9)
+
 |College Board Requirements|What I Did|
 |-|-|
 |Input to your program|✔️|
