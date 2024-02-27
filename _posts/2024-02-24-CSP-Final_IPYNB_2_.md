@@ -2,6 +2,7 @@
 title: CSP Final
 categories: ['CSP', 'Week 21']
 tags: ['hacks']
+comments: True
 ---
 
 # Individual Review
