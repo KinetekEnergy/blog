@@ -68,7 +68,7 @@ At least one procedure that contributes to the program's intended purpose, where
 * Return: returns different values based on what is sent to it. If there is no UID or email, it returns a `400` error. Any other errors return `500`. 
 * Parameter(s): `self`
 
-<img src="/images/update.png" width="" alt="alt_text" title="image_tooltip">
+<img src="/blog/images/update.png" width="" alt="alt_text" title="image_tooltip">
 
 ### CB
 
@@ -79,7 +79,7 @@ An algorithm that includes sequencing, selection, and iteration that is in the b
 
 This function uses sequencing and iterates through each user. It selects each part of their user information such as name, email, etc. and prepares it for use in a json. This can be accessed on the frontend via an admin panel.
 
-<img src="/images/iteration.png" width="" alt="alt_text" title="image_tooltip">
+<img src="/blog/images/iteration.png" width="" alt="alt_text" title="image_tooltip">
 
 ### CB
 
@@ -90,7 +90,7 @@ Calls to your student-developed procedure
 
 Calls the backend procedure and fetches the data to load.
 
-<img src="/images/adminpanel.png" width="" alt="alt_text" title="image_tooltip">
+<img src="/blog/images/adminpanel.png" width="" alt="alt_text" title="image_tooltip">
 
 ### CB
 
@@ -101,7 +101,7 @@ Instructions for output (tactile, audible, visual, or ) based on input and progr
 
 Now, the json data is formatted into a table. All content is dynamically updated and automatically formatted with CSS.
 
-<img src="/images/visuals.png" width="" alt="alt_text" title="image_tooltip">
+<img src="/blog/images/visuals.png" width="" alt="alt_text" title="image_tooltip">
 
 ## Component B: Video
 

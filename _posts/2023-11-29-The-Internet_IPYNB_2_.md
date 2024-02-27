@@ -129,12 +129,12 @@ HTTP is the standard protocol for transmitting data over the internet. However, 
 #### HTTPS
 On the other hand, HTTPS adds a layer of security by incorporating SSL/TLS (Secure Sockets Layer/Transport Layer Security) encryption. This encryption ensures that the data exchanged between the user and the website is encrypted, making it much more challenging for malicious actors to intercept or tamper with the information.
 
-<!-- ![image](../../../images/httpvshttpsdiagram.png) -->
+<!-- ![image](../../../blog/images/httpvshttpsdiagram.png) -->
 
 We SSL based encryption last trimester with certbot. Certbot generated SSL certificates for us to ensure HTTPS 
 connection between the client and your website. 
 
-<!-- ![image](../../../images/wireshark_capture.png) -->
+<!-- ![image](../../../blog/images/wireshark_capture.png) -->
 
 ## TCP and UDP - Transmission Control Protocol and User Datagram Protocol
 
