@@ -38,6 +38,7 @@ Instructions for input from one of the following:
 
 In our project, the user can upload a video file and an image. The video file will be the video that plays and the image can be a video preview (typically called a “thumbnail). The user also inputs a title for the video and a description.
 
+<hr>
 
 ### CB
 
@@ -53,6 +54,7 @@ For our project, the collected data are the videos which are stored in the backe
 * Data stored in SQLite
 * JSON collection to pass data
 
+<hr>
 
 ### CB
 
@@ -71,6 +73,8 @@ At least one procedure that contributes to the program's intended purpose, where
 
 <img src="/blog/images/update.png" width="" alt="alt_text" title="image_tooltip">
 
+<hr>
+
 ### CB
 
 An algorithm that includes sequencing, selection, and iteration that is in the body of the selected procedure
@@ -82,6 +86,8 @@ This function uses sequencing and iterates through each user. It selects each pa
 
 <img src="/blog/images/iteration.png" width="" alt="alt_text" title="image_tooltip">
 
+<hr>
+
 ### CB
 
 Calls to your student-developed procedure
@@ -92,6 +98,8 @@ Calls to your student-developed procedure
 Calls the backend procedure and fetches the data to load.
 
 <img src="/blog/images/adminpanel.png" width="" alt="alt_text" title="image_tooltip">
+
+<hr>
 
 ### CB
 
