@@ -16,9 +16,9 @@ I believe that I deserve 100% (3/3) on the seed project for the following reason
 
 
 * I got above 93% last trimester of CompSci
-    * <img src="/blog/images/grades.png" width="" alt="alt_text" title="image_tooltip">
+    * <img src="images/grades.png" width="" alt="alt_text" title="image_tooltip">
 * I consistently and equally contributed to the project along with my partners Advik, Yeongsu, and William. We had lots of team communication and helped each other. This is proven by our message count below (Discord)
-    * <img src="/blog/images/groupchat.png" width="" alt="alt_text" title="image_tooltip">
+    * <img src="images/groupchat.png" width="" alt="alt_text" title="image_tooltip">
 * I have a GitHub Pages Blog which serves as a log of everything, including the post you’re reading ([Blog link](https://kinetekenergy.github.io/blog/))
     * Major example of using the blog for planning: [Link](https://kinetekenergy.github.io/blog/posts/Unfied-Post_IPYNB_2_/)
     * Another example which is related to ideation: [Link](https://kinetekenergy.github.io/blog/posts/Checkpoint_IPYNB_2_/)
@@ -30,9 +30,9 @@ I believe that I deserve 100% (3/3) on the seed project for the following reason
     * Blog which details more about these commits: [Link](https://kinetekenergy.github.io/blog/posts/CSP-Final_IPYNB_2_/#features-prior-to-implementation)
     * GitHub issue which details more about these commits: [Link](https://github.com/Napoleon-Bonaparte-Official/corsica-backend/commit/00f2e4a3f99cea3a05d50674e7b41cafccd83410)
     * Note that the first image is of javascript frontend/backend integration on the frontend repo while the second is on the backend.
-    * <img src="/blog/images/frontend.png" width="" alt="alt_text" title="image_tooltip">
-    * <img src="/blog/images/backend.png" width="" alt="alt_text" title="image_tooltip">
-    * <img src="/blog/images/commitcount.png" width="" alt="alt_text" title="image_tooltip">
+    * <img src="images/frontend.png" width="" alt="alt_text" title="image_tooltip">
+    * <img src="images/backend.png" width="" alt="alt_text" title="image_tooltip">
+    * <img src="images/commitcount.png" width="" alt="alt_text" title="image_tooltip">
 
 
 ### Team Seed

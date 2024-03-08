@@ -212,7 +212,7 @@ Add your image here by adding the link between the "" and removing the comment f
 <!-- <img src=""> -->
 
 ### Hack 2: Robot Pseudo-Code
-<!-- <img src="/blog/images/maze.jpg" alt="maze"> -->
+<!-- <img src="images/maze.jpg" alt="maze"> -->
 
 > Instructions:
 - Move the triangle to the end while getting the coin
