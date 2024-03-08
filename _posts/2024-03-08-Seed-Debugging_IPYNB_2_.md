@@ -28,7 +28,7 @@ I believe that I deserve 100% (3/3) on the seed project for the following reason
     * [Commit 1](https://github.com/Napoleon-Bonaparte-Official/corsica-frontend/commit/bbce2f295fe3414cd2a97ae3b756fe65d57ffc87)
     * [Commit 2](https://github.com/Napoleon-Bonaparte-Official/corsica-backend/commit/6352cfac8f3f499751d44ce573be3aadc324f4fb)
     * Blog which details more about these commits: [Link](https://kinetekenergy.github.io/blog/posts/CSP-Final_IPYNB_2_/#features-prior-to-implementation)
-    * GitHub issue which details more about these commits: [Link](https://github.com/Napoleon-Bonaparte-Official/corsica-backend/commit/00f2e4a3f99cea3a05d50674e7b41cafccd83410)
+    * GitHub issue which details more about these commits: [Link](https://github.com/Napoleon-Bonaparte-Official/corsica-blog/issues/3)
     * Note that the first image is of javascript frontend/backend integration on the frontend repo while the second is on the backend.
     * <img src="images/frontend.png" width="" alt="alt_text" title="image_tooltip">
     * <img src="images/backend.png" width="" alt="alt_text" title="image_tooltip">
