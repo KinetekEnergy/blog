@@ -40,7 +40,24 @@ I believe that I deserve 100% (3/3) on the seed project for the following reason
 
 #### Team Progress
 
-
+1. Groups (Aashray, Kyle, Aashray Rajagopalan, Matthew, Trevor)
+    1. Subgroups: 
+        1. Aashray, Kyle, Aashray
+        2. Matthew, Trevor
+2. Debugging Issue
+3. Titanic machine learning
+    1. Develop teacher code by:
+        1. Integrating machine learning and artificial intelligence into out project
+        2. Creating a frontend UI for the project so that it is easy for users to use
+        3. Add more functions to account for more variables like location on the ship or economic class
+        4. Realistic constraints and parameters
+4. Organization
+    1. Pull requests with a unified naming scheme
+        1. EX: feature/branch-name
+        2. EX: bugfix/branch-name
+    2. Weekly plans using the project board
+        1. Issues to keep track of what needs to be done
+        2.  Project board will also keep track of the features that were already complete
 
 * Collaboration
     * Debugging and helping make the site more stable
@@ -57,3 +74,5 @@ I believe that I deserve 100% (3/3) on the seed project for the following reason
 * Yeongsu: Helped with me (Aashray) a lot, especially on the video system. He helped with the JS for fetching videos and thumbnails as well as video titles, view count, descriptions, and the user who made the video
 * Advik: Major backend person who helped a lot with the database and handling of videos so that a user can upload a video, thumbnail, and have it be sent to the backend
 * Will: Helped with frontend and backend in terms of getting the view count system to work as well as a lot of the deployment (docker, AWS server, and whatnot).
+
+
