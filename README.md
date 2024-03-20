@@ -1,8 +1,8 @@
 # My Blog
 
 ## Note: To add images do this: 
-![Image Name](images/filename.extension "Image title")
-<img src="images/filename.extension" width="" alt="alt_text" title="image_tooltip">
+`![Image Name](images/filename.extension "Image title")`
+`<img src="images/filename.extension" width="" alt="alt_text" title="image_tooltip">`
 
 **What is this blog?** This blog is for APCSP and contains various projects, lessons, etc. It serves as a documentation or logbook / journal of what I've done so far and my progress.
 
