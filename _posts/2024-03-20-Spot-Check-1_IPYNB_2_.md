@@ -32,7 +32,7 @@ tags: ['hacks']
 ![image](https://github.com/KinetekEnergy/blog/assets/79232996/ac03cab0-78a3-489d-9232-1f2a368a22a7)
   - [X] Show Cookie acquired window
 ![image](https://github.com/KinetekEnergy/blog/assets/79232996/37ff3069-3af8-402c-8e78-638538606161)
-  - [X] Cut/Copy/Paste Cookie into[ jwt.io](http://jwt.io/) and show decrypting payload
+  - [X] Cut/Copy/Paste Cookie into[ jwt.io](https://jwt.io/) and show decrypting payload
 ![image](https://github.com/KinetekEnergy/blog/assets/79232996/2fc55228-0f71-4154-962b-cf90554bd904)
 
 # postman with /api screen to access data under authentication (0.92)
