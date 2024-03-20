@@ -48,10 +48,6 @@ overflow_float = max_float * 2
 print(f"Overflow float to infinity: {overflow_float}")
 ```
 
-    Max float: 1.7976931348623157e+308
-    Overflow float to infinity: inf
-
-
 
 ```python
 # as a popcorn hack (binary challenge), describe an overflow in 8 binary digits
@@ -71,10 +67,6 @@ print(bin(result))
 result = (number3 - number2) & number1
 print(bin(result))
 ```
-
-    0b0
-    0b11111111
-
 
 ## 5. Inputs to Logic Circuit (2D, binary logic) - Hanlun Li
 
@@ -128,25 +120,6 @@ for A in [False, True]:
                 print(A, B, C, D, "-->", circuit(A, B, C, D))
 ```
 
-    A B C D --> Output
-    False False False False --> False
-    False False False True --> False
-    False False True False --> False
-    False False True True --> False
-    False True False False --> False
-    False True False True --> False
-    False True True False --> False
-    False True True True --> True
-    True False False False --> False
-    True False False True --> False
-    True False True False --> False
-    True False True True --> True
-    True True False False --> False
-    True True False True --> False
-    True True True False --> False
-    True True True True --> True
-
-
 
 ```python
 # New truth table using NOT and NOR gates
@@ -181,17 +154,6 @@ for A in [False, True]:
         for C in [False, True]:
             print(A, B, C, "-->", circuit(A, B, C))
 ```
-
-    A B C --> Output
-    False False False --> False
-    False False True --> False
-    False True False --> False
-    False True True --> False
-    True False False --> False
-    True False True --> True
-    True True False --> True
-    True True True --> True
-
 
 ## 11. Color represented by binary Triplet (2D, binary) - Torin Wolff
 
@@ -275,34 +237,6 @@ rgb_primary = [('11111111', '00000000', '00000000'),
 plot_colors(rgb_primary)
 ```
 
-    binary: 11111111 11111111 11110000
-    decimal 255 255 240
-    proportion 1.0 1.0 0.9411764705882353
-
-
-
-    
-![png](output_8_1.png)
-    
-
-
-    binary: 11111111 00000000 00000000
-    decimal 255 0 0
-    proportion 1.0 0.0 0.0
-    binary: 11111111 11111111 00000000
-    decimal 255 255 0
-    proportion 1.0 1.0 0.0
-    binary: 00000000 00000000 11111111
-    decimal 0 0 255
-    proportion 0.0 0.0 1.0
-
-
-
-    
-![png](output_8_3.png)
-    
-
-
 
 ```python
 color = [("10010110", "10000110", "111111")]  # color
@@ -317,37 +251,6 @@ standard_colors = [
 ]
 plot_colors(standard_colors)
 ```
-
-    binary: 10010110 10000110 111111
-    decimal 150 134 63
-    proportion 0.5882352941176471 0.5254901960784314 0.24705882352941178
-
-
-
-    
-![png](output_9_1.png)
-    
-
-
-    binary: 11111111 00000000 11111111
-    decimal 255 0 255
-    proportion 1.0 0.0 1.0
-    binary: 00000000 00000000 00000000
-    decimal 0 0 0
-    proportion 0.0 0.0 0.0
-    binary: 11111111 11111111 11111111
-    decimal 255 255 255
-    proportion 1.0 1.0 1.0
-    binary: 00000000 11111111 11111111
-    decimal 0 255 255
-    proportion 0.0 1.0 1.0
-
-
-
-    
-![png](output_9_3.png)
-    
-
 
 ## 50. Reasonable time algorithms (1D, Big O) - Vance Reynolds 
 
@@ -423,11 +326,6 @@ end = time.time()
 print(f"Algorithm 10 times took {(end - start)*1000:.2f} milliseconds")
 ```
 
-    Algorithm 2 * N took 0.58 milliseconds
-    Algorithm N^2 took 848.58 milliseconds
-    Algorithm 10 times took 0.04 milliseconds
-
-
 
 ```python
 import time
@@ -459,9 +357,6 @@ if __name__ == "__main__":
     # printing time it took
     print(f"O(log N) {(end - start)*1000:.2f} milliseconds")
 ```
-
-    O(log N) 0.58 milliseconds
-
 
 ## 56. Compare execution times of tow version (1D analysis) - Kayden Le
 
@@ -528,10 +423,6 @@ version_I(idList)
 version_II(idList)
 ```
 
-    Version I took 240.00 simulated seconds
-    Version II took 540.00 simulated seconds
-
-
 
 ```python
 def slowRecursion(num):
@@ -558,10 +449,6 @@ fast = fastRecursion(1000)
 end = time.time()
 print(f"Fast recursion with 1000 took {end - start:.2f} seconds")
 ```
-
-    Slow recursion with 40 took 28.61 seconds
-    Fast recursion with 1000 took 2.71 seconds
-
 
 ## 64. Error with multiplication using repeated addition (4C algorithms and programs) - Abdullah Khanani
 
@@ -629,12 +516,6 @@ print(multiply(-2, 5))  # Expected output: -10
 print(multiply(-2, -5))  # Expected output: 10, Actual output: 0
 ```
 
-    10
-    0
-    -10
-    0
-
-
 
 ```python
 def multiply(x, y):
@@ -646,12 +527,6 @@ print(multiply(2, -5))
 print(multiply(-2, 5))
 print(multiply(-2, -5))
 ```
-
-    10
-    -10
-    -10
-    10
-
 
 ## 65. Call to concat and substring (4B string operations) - Ameer Hussain
 
@@ -686,9 +561,6 @@ animal = "antelope"[4:8] + animal  # Concat(Substring("antelope", 5, 4), animal)
 print(animal)  # Outputs: lopejacka
 ```
 
-    lopejacka
-
-
 
 ```python
 # this is what D looks likes
@@ -709,8 +581,3 @@ animal = animal + "a"
 animal = animal + "antelope"[4:8]
 print(animal)
 ```
-
-    lopejacka
-    jackalope
-    jackalope
-
