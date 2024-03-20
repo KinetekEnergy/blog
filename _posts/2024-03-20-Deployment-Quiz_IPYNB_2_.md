@@ -47,7 +47,7 @@ tags: ['hacks']
   <tr>
    <td>Record name
    </td>
-   <td><a href="http://imreddy.stu.nighthawkcodingsociety.com">imreddy.stu.nighthawkcodingsociety.com</a>
+   <td><a href="https://imreddy.stu.nighthawkcodingsociety.com">imreddy.stu.nighthawkcodingsociety.com</a>
    </td>
   </tr>
 </table>
