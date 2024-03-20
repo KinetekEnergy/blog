@@ -4,28 +4,6 @@
 `![Image Name](images/filename.extension "Image title")`
 `<img src="images/filename.extension" width="" alt="alt_text" title="image_tooltip">`
 
-**What is this blog?** This blog is for APCSP and contains various projects, lessons, etc. It serves as a documentation or logbook / journal of what I've done so far and my progress.
-
-**Who is this blog for?** This is for anyone interested in what I've done so far in CSP (althought I assume the only ones interested are me and the teacher).
-
-**Where is this blog?** <https://kinetekenergy.github.io/newBlog/>
-
-**Why is this blog?** Why not?
-
-## Para español, marca dos (o leer más abajo)
-
-**Qué es este blog** Este blog is para APCSP y contene vario proyectos, leccións, etc. Este sirve a documentación o diario de lo que he hecho hasta ahora y mi desarollo.
-
-**Quién es este blog para?** Este es para cualquier persona interesada en lo que he hecho hasta ahora en CSP (pero yo asumo que las personas interesadas son mi y el profesor).
-
-**Dondé es este blog?** <https://kinetekenergy.github.io/newBlog/>
-
-**Por qué es este blog?** Por qué no?
-<br>
-<br>
-<br>
-<br>
-<br>
 # Methods of Mort (instructions written by him).
 
 ## Blog site using GitHub Pages and Jekyll
