@@ -84,3 +84,15 @@ What I selected: A & D
 
 Correct answer: A & C
 
+
+### [Popcorn hacks](https://kinetekenergy.github.io/blog/posts/CSP-MCQ-2020-missed_IPYNB_2_/)
+
+
+### Exam Score
+
+
+![Exam Score](images/exam.png "Exam Score")
+
+
+
+
