@@ -1,0 +1,53 @@
+---
+layout: compress
+---
+
+<!doctype html>
+
+{% include origin-type.html %}
+
+{% include lang.html %}
+
+{% if site.theme_mode %}
+  {% capture prefer_mode %}data-mode="{{ site.theme_mode }}"{% endcapture %}
+{% endif %}
+
+<!-- `site.alt_lang` can specify a language different from the UI -->
+<html lang="{{ page.lang | default: site.alt_lang | default: site.lang }}" {{ prefer_mode }}>
+  {% include head.html %}
+
+  <body>
+    {% include sidebar.html lang=lang %}
+
+    <div id="main-wrapper" class="d-flex justify-content-center">
+      <div class="container d-flex flex-column" style="padding-left: 0px !important; margin-left: 0px !important;">
+        <div class="row flex-grow-1">
+          <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4" style="padding-left: 0px !important; margin-left: 0px !important;">
+            {% if layout.refactor or layout.layout == 'default' %}
+              {% include refactor-content.html content=content lang=lang %}
+            {% else %}
+              {{ content }}
+            {% endif %}
+          </main>
+        </div>
+
+        {% include_cached search-results.html lang=lang %}
+      </div>
+    </div>
+
+    <div id="mask" class="d-none position-fixed w-100 h-100 z-1"></div>
+
+    {% if site.pwa.enabled %}
+      {% include_cached notification.html lang=lang %}
+    {% endif %}
+
+    <!-- Embedded scripts -->
+
+    {% for _include in layout.script_includes %}
+      {% assign _include_path = _include | append: '.html' %}
+      {% include {{ _include_path }} %}
+    {% endfor %}
+
+    {% include_cached search-loader.html lang=lang %}
+  </body>
+</html>
