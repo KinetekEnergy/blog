@@ -1,30 +1,55 @@
 <!-- The Side Bar -->
 <style>
-  .animation{
-    animation: fadeout 3s linear 1 forwards;
+/* Fade out animation */
+.animation {
+    animation: fadeout 0.5s linear 1 forwards;
+}
+
+/* Fade-in animation */
+.fadein {
+    animation: fadein 0.5s linear 1 forwards;
 }
 
 @keyframes fadeout {
-    from{
+    from {
         opacity: 1;
     }
-    to{
+    to {
         opacity: 0;
     }
 }
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 </style>
 
 <script>
-    function navigate(){
+function navigate(event) {
+    event.preventDefault(); // Prevents immediate navigation
 
-        const element = document.querySelector('.otherWebsite');
-        element.classList.add('animation'); // setting the animation class to the element
+    // Get all the elements to fade out except the sidebar
+    const content = document.querySelectorAll('body > *:not(#sidebar)');
 
-        setTimeout(() =>{
-            location.assign('https://stackoverflow.com')
-        } , 3000) // delaying the process of the navigation for 3s (3000ms)
+    // Apply fade-out animation to the elements
+    content.forEach(el => el.classList.add('animation'));
 
-    }
+    // Once the new page has loaded, apply fade-in animation to everything
+    window.onload = function () {
+        content.forEach(el => {
+            el.classList.remove('animation');
+            el.classList.add('fadein');
+        });
+    };
+}
+
+
 </script>
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
@@ -50,7 +75,7 @@
     <ul class="nav">
       <!-- home -->
       <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
-        <a href="{{ '/' | relative_url }}" class="nav-link" onclick="navigate()">
+        <a href="{{ '/' | relative_url }}" class="nav-link redirectWithFade" onclick="navigate()">
           <i class="fa-fw fas fa-home"></i>
           <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
         </a>
@@ -59,7 +84,7 @@
       <!-- the real tabs -->
       {% for tab in site.tabs %}
         <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
-          <a href="{{ tab.url | relative_url }}" class="nav-link" onclick="navigate()">
+          <a href="{{ tab.url | relative_url }}" class="nav-link redirectWithFade" onclick="navigate(event)">
             <i class="fa-fw {{ tab.icon }}"></i>
             {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
 
