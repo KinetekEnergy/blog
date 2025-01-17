@@ -5,7 +5,6 @@ import os
 import nbformat
 import yaml
 import sys
-from tqdm import tqdm
 import enlighten
 
 # Specify the directory where your Jupyter Notebook files are located
@@ -108,7 +107,8 @@ def convert_notebooks(progressBar):
 # Call the function to perform conversions when the script is run directly
 if __name__ == "__main__":
     manager = enlighten.get_manager()
-    pbar = manager.counter(total=len([f for f in os.listdir(notebook_directory) if os.path.isfile(
-        os.path.join(notebook_directory, f))]), desc='Basic', unit='ticks')
+
+    pbar = manager.counter(total=sum([len(files) for r, d, files in os.walk(
+        notebook_directory)]), desc='Converting notebooks:', unit='ticks')
 
     convert_notebooks(pbar)
