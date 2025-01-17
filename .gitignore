@@ -25,6 +25,9 @@ package-lock.json
 # Misc
 _sass/vendors
 assets/js/dist
+_posts/**/*.md
+_posts/**/*.md
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
