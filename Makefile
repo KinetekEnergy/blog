@@ -29,7 +29,7 @@ server: stop convert
 # Convert .ipynb files to Markdown with front matter
 convert:
 	@python3 scripts/convert_notebooks.py
-  
+
 # Clean up project derived files, to avoid run issues stop is dependency
 clean: stop
 	@echo "Cleaning converted IPYNB files..."
@@ -47,3 +47,8 @@ stop:
 	@echo "Stopping server..."
 	@# kills process running on port $(PORT)
 	@@lsof -ti :$(PORT) | xargs kill >/dev/null 2>&1 || true
+
+reload: stop
+	@make stop
+	@make clean
+	@make
