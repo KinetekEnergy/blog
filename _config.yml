@@ -115,7 +115,7 @@ comments:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo: kinetekenergy/blog
+    repo: kinetekenergy/blogCSA
     issue_term: pathname # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
@@ -150,7 +150,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "/blog"
+baseurl: "/blogCSA"
 
 # ------------ The following options are not recommended to be modified ------------------
 
