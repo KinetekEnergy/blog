@@ -1,7 +1,36 @@
 <!-- The Side Bar -->
+<style>
+  .animation{
+    animation: fadeout 3s linear 1 forwards;
+}
+
+@keyframes fadeout {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+</style>
+
+<script>
+    function navigate(){
+
+        const element = document.querySelector('.otherWebsite');
+        element.classList.add('animation'); // setting the animation class to the element
+
+        setTimeout(() =>{
+            location.assign('https://stackoverflow.com')
+        } , 3000) // delaying the process of the navigation for 3s (3000ms)
+
+    }
+</script>
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
+  {% comment %} profile settings {% endcomment %}
   <header class="profile-wrapper">
+    {% comment %} profile pic {% endcomment %}
     <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
       {%- if site.avatar != empty and site.avatar -%}
         {%- capture avatar_url -%}
@@ -11,6 +40,7 @@
       {%- endif -%}
     </a>
 
+    {% comment %} site title and the tagline {% endcomment %}
     <a class="site-title d-block" href="{{ '/' | relative_url }}">{{ site.title }}</a>
     <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
   </header>
@@ -20,15 +50,16 @@
     <ul class="nav">
       <!-- home -->
       <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
-        <a href="{{ '/' | relative_url }}" class="nav-link">
+        <a href="{{ '/' | relative_url }}" class="nav-link" onclick="navigate()">
           <i class="fa-fw fas fa-home"></i>
           <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
         </a>
       </li>
+
       <!-- the real tabs -->
       {% for tab in site.tabs %}
         <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
-          <a href="{{ tab.url | relative_url }}" class="nav-link">
+          <a href="{{ tab.url | relative_url }}" class="nav-link" onclick="navigate()">
             <i class="fa-fw {{ tab.icon }}"></i>
             {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
 

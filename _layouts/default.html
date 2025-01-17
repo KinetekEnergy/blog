@@ -3,6 +3,40 @@ layout: compress
 ---
 
 <!doctype html>
+<head>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+</head>
+
+<style>
+  .animation{
+    animation: fadeout 3s linear 1 forwards;
+}
+
+@keyframes fadeout {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+</style>
+
+<script>
+    function navigate(){
+
+        const element = document.querySelector('.otherWebsite');
+        element.classList.add('animation'); // setting the animation class to the element
+
+        setTimeout(() =>{
+            location.assign('https://stackoverflow.com')
+        } , 3000) // delaying the process of the navigation for 3s (3000ms)
+
+    }
+</script>
 
 {% include origin-type.html %}
 
@@ -21,6 +55,7 @@ layout: compress
 
     <div id="main-wrapper" class="d-flex justify-content-center">
       <div class="container d-flex flex-column px-xxl-5">
+        {% comment %} search bar {% endcomment %}
         {% include topbar.html lang=lang %}
 
         <div class="row flex-grow-1">
@@ -32,7 +67,7 @@ layout: compress
             {% endif %}
           </main>
 
-          <!-- panel -->
+          <!-- panel (right side) -->
           <aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 text-muted">
             <div class="access">
               {% include_cached update-list.html lang=lang %}
